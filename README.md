@@ -11,7 +11,11 @@ Requires:
 
 Run this command from your Laravel application folder:
 
-    composer require nikrovir/spatie-dto-commands 
+    composer require nikrovir/spatie-dto-commands
+    
+Publish BaseHandler:
+
+    php artisan vendor:publish
 
 ## Usage
 
