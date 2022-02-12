@@ -1,0 +1,36 @@
+{
+    "name": "nikrovir/spatie-dto-commands",
+    "description": "Commands for creating Command, Handler, Caster files for Spatie Laravel Data Transper Object package",
+    "keywords": [
+        "spatie",
+        "data-transfer-object",
+        "spatie-dto-commands",
+        "console",
+        "nikrovir"
+    ],
+    "homepage": "https://github.com/nikrovir/spatie-dto-commands",
+    "require": {
+        "php": "^8.0",
+        "spatie/data-transfer-object": "^3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nikrovir\\SpatieDtoCommands\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nikrovir\\SpatieDtoCommands\\SpatieDTOCommandsProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "NikroVir",
+            "email": "NikroVir@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}

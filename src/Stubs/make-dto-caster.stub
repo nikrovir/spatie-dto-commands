@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use Spatie\DataTransferObject\Caster;
+
+class DummyClass implements Caster
+{
+    /**
+     * @throws \Exception
+     */
+    public function cast(mixed $value): mixed
+    {
+        //
+    }
+}

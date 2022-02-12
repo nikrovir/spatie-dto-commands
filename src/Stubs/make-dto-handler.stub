@@ -1,0 +1,13 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\DTO\Handler\BaseHandler;
+
+class DummyClass extends BaseHandler
+{
+    protected function handleCommand($command)
+    {
+        //
+    }
+}
