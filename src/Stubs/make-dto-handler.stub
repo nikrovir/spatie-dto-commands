@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use App\DTO\Handler\BaseHandler;
+use App\Services\Handler\BaseHandler;
 
 class DummyClass extends BaseHandler
 {
