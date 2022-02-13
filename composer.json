@@ -1,6 +1,6 @@
 {
     "name": "nikrovir/spatie-dto-commands",
-    "description": "Commands for creating Command, Handler, Caster files for Laravel Spatie Data Transfer Object package",
+    "description": "Console commands for creating Command files and Caster files for Spatie DTO package, and service layer Handler files.",
     "keywords": [
         "spatie",
         "data-transfer-object",
