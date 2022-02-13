@@ -5,21 +5,21 @@ namespace Nikrovir\SpatieDtoCommands;
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;
 
-class MakeDTOHandler extends GeneratorCommand
+class MakeServicesHandler extends GeneratorCommand
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $name = 'dto:handler';
+    protected $name = 'services:handler';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Create a new dto handler file';
+    protected $description = 'Create a new services handler file';
 
     /**
      * The type of class being generated.
@@ -46,7 +46,7 @@ class MakeDTOHandler extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return 'App\DTO\Handler';
+        return 'App\Services\Handler';
     }
 
     /**
@@ -57,7 +57,7 @@ class MakeDTOHandler extends GeneratorCommand
     protected function getArguments()
     {
         return [
-            ['name', InputArgument::REQUIRED, 'The name of the dto handler.'],
+            ['name', InputArgument::REQUIRED, 'The name of the services handler.'],
         ];
     }
 }
