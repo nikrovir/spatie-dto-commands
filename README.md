@@ -15,7 +15,7 @@ Run this command from your Laravel application folder:
     
 Publish BaseHandler:
 
-    php artisan vendor:publish
+    php artisan vendor:publish --tag=dto-commands
 
 ## Usage
 
