@@ -31,7 +31,7 @@ class SpatieDTOCommandsProvider extends ServiceProvider
             $this->commands([
                 MakeDTOCaster::class,
                 MakeDTOCommand::class,
-                MakeCommandBusHandler::class,
+                MakeServicesHandler::class,
             ]);
         }
     }
