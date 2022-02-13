@@ -25,7 +25,7 @@ class SpatieDTOCommandsProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/publish' => app_path(),
-        ]);
+        ], 'dto-commands');
 
         if ($this->app->runningInConsole()) {
             $this->commands([
