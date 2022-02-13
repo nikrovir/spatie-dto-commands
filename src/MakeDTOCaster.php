@@ -46,7 +46,7 @@ class MakeDTOCaster extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return 'App\DTO\Casters';
+        return 'App\CommandBus\DTO\Casters';
     }
 
     /**

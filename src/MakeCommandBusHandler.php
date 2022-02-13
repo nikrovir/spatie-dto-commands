@@ -5,7 +5,7 @@ namespace Nikrovir\SpatieDtoCommands;
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputArgument;
 
-class MakeDTOHandler extends GeneratorCommand
+class MakeCommandBusHandler extends GeneratorCommand
 {
     /**
      * The name and signature of the console command.
@@ -19,7 +19,7 @@ class MakeDTOHandler extends GeneratorCommand
      *
      * @var string
      */
-    protected $description = 'Create a new dto handler file';
+    protected $description = 'Create a new command bus handler file';
 
     /**
      * The type of class being generated.

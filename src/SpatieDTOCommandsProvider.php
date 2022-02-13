@@ -25,13 +25,13 @@ class SpatieDTOCommandsProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/publish' => app_path(),
-        ], 'dto-commands');
+        ], 'laravel-assets');
 
         if ($this->app->runningInConsole()) {
             $this->commands([
                 MakeDTOCaster::class,
                 MakeDTOCommand::class,
-                MakeDTOHandler::class,
+                MakeCommandBusHandler::class,
             ]);
         }
     }

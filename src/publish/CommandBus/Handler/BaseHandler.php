@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DTO\Handler;
+namespace App\CommandBus\Handler;
 
 use Spatie\DataTransferObject\DataTransferObject;
 
