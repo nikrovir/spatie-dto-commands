@@ -12,23 +12,17 @@ Requires:
 Run this command from your Laravel application folder:
 
     composer require nikrovir/spatie-dto-commands
-    
-Publish BaseHandler:
-
-    php artisan vendor:publish --tag=dto-commands
 
 ## Usage
 
-Create caster file:
+Create a new dto caster file at **app/Services/DTO/Caster** directory:
 
-    php artisan dto:caster <filename>
+    php artisan services:caster <filename>
 
-Create command file:
+Create a new dto command file at **app/Services/DTO/Command** directory:
 
-    php artisan dto:command <filename>
+    php artisan services:command <filename>
 
-Create handler file:
+Create a new services handler file at **app/Services/Handler** directory:
 
-    php artisan dto:handler <filename>
-
-> All commands generate files in *app/DTO* directory
+    php artisan services:handler <filename>
