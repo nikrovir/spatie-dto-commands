@@ -1,6 +1,6 @@
 # Spatie DTO Console Commands
 
-This package is a simple way to generate Command files and Caster files for Spatie DTO, and service layer Handler files by console commands.
+This simple package is a way to generate Command files and Caster files for Spatie DTO, and service layer Handler files by console commands.
 
 Requires:
 - PHP 8+
