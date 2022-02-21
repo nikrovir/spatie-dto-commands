@@ -12,7 +12,7 @@ class MakeDTOCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $name = 'services:command';
+    protected $name = 'create:command';
 
     /**
      * The console command description.
@@ -46,7 +46,7 @@ class MakeDTOCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return 'App\Services\DTO\Command';
+        return 'App\Services\DTO\Commands';
     }
 
     /**

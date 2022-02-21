@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Services\Handler;
+namespace App\Services\Handlers;
 
+use Illuminate\Support\Facades\DB;
 use Spatie\DataTransferObject\DataTransferObject;
 
 abstract class BaseHandler
@@ -17,7 +18,7 @@ abstract class BaseHandler
         }
 
         $self = $this;
-        return \DB::transaction(function() use($self, $dto) {
+        return DB::transaction(function() use($self, $dto) {
             return $self->handleCommand($dto);
         }, $this->numberOfAttempts);
     }
