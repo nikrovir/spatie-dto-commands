@@ -15,14 +15,14 @@ Run this command from your Laravel application folder:
 
 ## Usage
 
-Create a new dto caster file at **app/Services/DTO/Caster** directory:
+Create a new dto caster file at **app/Services/DTO/Casters** directory:
 
-    php artisan services:caster <filename>
+    php artisan create:caster <filename>
 
-Create a new dto command file at **app/Services/DTO/Command** directory:
+Create a new dto command file at **app/Services/DTO/Commands** directory:
 
-    php artisan services:command <filename>
+    php artisan create:command <filename>
 
-Create a new services handler file at **app/Services/Handler** directory:
+Create a new services handler file at **app/Services/Handlers** directory:
 
-    php artisan services:handler <filename>
+    php artisan create:handler <filename>

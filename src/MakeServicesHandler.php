@@ -12,7 +12,7 @@ class MakeServicesHandler extends GeneratorCommand
      *
      * @var string
      */
-    protected $name = 'services:handler';
+    protected $name = 'create:handler';
 
     /**
      * The console command description.
@@ -46,7 +46,7 @@ class MakeServicesHandler extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return 'App\Services\Handler';
+        return 'App\Services\Handlers';
     }
 
     /**
